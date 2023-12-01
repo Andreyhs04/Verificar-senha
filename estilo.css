@@ -1,0 +1,108 @@
+#entradaSenha {
+    margin: 20px;
+
+}
+
+#cria {
+    height: 30px;
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 2px;
+    display: none;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(UNDER.png);
+}
+
+img {
+    width: 200px;
+}
+
+body h1 {
+    color: rgba(164, 3, 3, 0.695);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+
+#medidorPoder {
+    margin-top: 10px;
+    height: 20px;
+    width: 0;
+    background-color: gray;
+    transition: width 0.3s, background-color 0.3s;
+}
+
+#requisitos {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.requisito {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vermelho {
+    color: red;
+    transition: color 0.3s;
+}
+
+.verde {
+    color: green;
+    transition: color 0.3s;
+}
+
+#textoPoder {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#mostrarSenha {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #4285F4;
+    font: 200 15px 'Undertale', sans-serif;
+}
+
+@font-face {
+    font-family: 'Undertale';
+    src: url(MonsterFriendBack.otf);
+}
+
+h1 {
+    color: rgba(207, 8, 5, 0.759);
+    font: 700 40px 'Undertale', sans-serif;
+}
+
+/* Elemento inicialmente escondido */
+.escondido {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Classe para animar a aparição */
+.aparecendo {
+  opacity: 1;
+}

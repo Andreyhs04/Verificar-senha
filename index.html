@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvação</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <img src="danger-removebg-preview.png" alt="">
+
+    <div id="elemento" class="escondido">
+        <h1>give me your password</h1>
+    </div>
+
+    <form>
+        <div class="input">
+            <input type="email" placeholder="Digite seu email" required>
+            <div class="senha">
+                <input type="password" id="entradaSenha" placeholder="Digite sua senha" required>
+            </div>
+            <span id="mostrarSenha">Mostrar Senha</span>
+            <button id="cria">Criar</button>
+        </div>
+
+    </form>
+
+    <div id="medidorPoder"></div>
+
+    <div id="requisitos">
+        <div id="requisitoComprimento" class="requisito">Comprimento</div>
+        <div id="requisitoMinuscula" class="requisito">Letra minúscula</div>
+        <div id="requisitoMaiuscula" class="requisito">Letra maiúscula</div>
+        <div id="requisitoNumero" class="requisito">Número</div>
+        <div id="requisitoSimbolo" class="requisito">Símbolo</div>
+    </div>
+
+
+    <div id="textoPoder"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
